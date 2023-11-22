@@ -1,0 +1,42 @@
+{
+    "users": [
+        {
+            "name": "Arame",
+            "email": "hovhanisyanArame@gmail.com",
+            "password": 123457,
+            "id": 78023
+        },
+        {
+            "name": "Arame",
+            "email": "hovhanisyanAram@gmail.com",
+            "password": 123457,
+            "id": 19201
+        }
+    ],
+    "notes": [
+        {
+            "name": "User-1",
+            "id": 78023,
+            "children": [
+                {
+                    "id": 2,
+                    "note": "hello my name is Suzy"
+                }
+            ]
+        },
+        {
+            "name": "User-2",
+            "id": 19201,
+            "children": [
+                {
+                    "id": 1,
+                    "note": "Barca is winning"
+                },
+                {
+                    "id": 2,
+                    "note": "Barca is winning"
+                }
+            ]
+        }
+    ]
+}
